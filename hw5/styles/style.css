@@ -1,0 +1,337 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background: #FFF;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 14px;
+}
+
+.header__logo__img {
+    width: 35px;
+    height: 40px;
+}
+
+.header__logo__text {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.firm__color {
+    color: #F25822;
+}
+
+.header__link {
+    padding-top: 11px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+.header__link__text {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 40px;
+}
+
+.top__content {
+    margin-top: 84px;
+    margin-bottom: 162px;
+    border-radius: 50px;
+}
+
+.title {
+    width: 522px;
+    margin-top: 0;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    width: 466px;
+    margin-top: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons {
+    padding-top: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 72px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons__link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__image {
+    margin-top: -1.3px;
+    margin-bottom: -0.6px;
+}
+
+.brand {
+    margin-top: 97px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.brand__logo {
+    height: 50px;
+    width: 160px;
+}
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.features__item {
+    padding-top:  40px;
+    padding-bottom: 25px;
+    padding-left: 29px;
+    padding-right: 31px;
+}
+
+.features__item__middle {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.features__item__title {
+    margin-top: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features__item__text {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.features__link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+.services {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.servises__heading {
+    margin-top: 92px;
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.servises__text {
+    width: 682px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.services__content {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 362px);
+    gap: 30px;
+}
+
+.services__item {
+    width: 370px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.services__item__middle {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.services__item__img {
+    height: 270px
+}
+
+.services__item__title {
+    margin-bottom: 22px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services__item__text {
+    width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.services__buttons {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    margin-top: 39px;
+    margin-bottom: 50px;
+    margin-left: -20px;
+    background-image: url("../img/services_btn_bg.svg");
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.services__link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 46px;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+}
