@@ -1,0 +1,261 @@
+* {margin: 0; padding: 0;}
+
+body {
+    background: #FFF;
+}
+
+.center {
+    padding-left: calc(50% - 1140px / 2);
+    padding-right: calc(50% - 1140px / 2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 75px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    margin-top: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 41px;
+}
+
+.header__logo {
+    width: 44px;
+}
+
+.header__search {
+    width: 26px;
+}
+
+.header__logo__img {
+    height: 38px;
+}
+
+.top {
+    background-color: #F1E4E6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top__content {
+    display: flex;
+}
+
+.top__label {
+    padding-top: 289.9px;
+    padding-left: 63.42px;
+    display: flex;
+    gap: 16px;
+}
+
+.top__icon {
+    width: 12px;
+    height: 92px;    
+}
+
+.top__label__text {
+    width: 377px;
+}
+
+.firmstyle_1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.firmstyle_2 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.firmstyle_3 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer {
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.offer__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33, 22, 22, 0.7);
+    position: relative;
+}
+
+.offer__item__big {
+    grid-column: 1 / span 3;
+    height: 180px;
+    overflow: hidden;
+}
+
+.offer__img {
+    z-index: -1;
+    width: 100%;
+}
+
+.offer__text__style_1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.offer__text__style_2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product {
+    background: #FFF;
+}
+
+.product__title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.product__about {
+    margin-top: 6px;
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.product__panel {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 581px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.product__item {
+    background-color: #F8F8F8;
+}
+
+.product__item__special {
+    background-color: #F7E4E2;
+}
+
+
+.product__item__img {
+    display: flex;
+    justify-content: center; 
+    background: #f7e4e2;
+}
+
+.img__item2 {
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+
+.title_and_price {
+    padding: 24px 16px;
+    background-color: #F8F8F8;
+}
+
+.product__item__title {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product__item__text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 314.743px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.product__price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product__btn__panel {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.product_btn {
+    padding: 15px 39px;
+    background: #FFF;
+    background-image: url(../img/product_btn.png);
+    border-style: none;
+}
+
+.product_btn_text {
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
